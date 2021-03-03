@@ -75,12 +75,13 @@ links in the navigation are in the hover or focus state.*/
 
   /*Your code here*/
   position: absolute;
-  transform: translateY(-50px);
+  top: -50px;
 } 
 /*Req 3b*/
 /*Write selector/rule property to position the skip class element*/
 .skip a:focus{
-  transform: translateY(10px);
+  position: absolute;
+  top: 10px;
 }
 /*Req 4*/
 /*Write selector/rule property to style all elements when in focus*/
