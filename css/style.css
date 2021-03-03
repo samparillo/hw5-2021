@@ -93,7 +93,7 @@ links in the navigation are in the hover or focus state.*/
   /*Your Code Here*/
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 1fr;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: auto;
   row-gap: 20px;
 }
 
